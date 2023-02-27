@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="title" content="pako.es Personal Home Page" />
+    <meta name="title" content="pako.es Personal Home Page" />
     <meta name="description" content="I`m Python web developer pako.es " />
-    <meta name="keywords" content="pako, pako.es, пако, Python, programming, Пайтън, Уеб дизайн, " /> -->
+    <meta name="keywords" content="pako, pako.es, пако, Python, programming, Пайтън, Уеб дизайн, " />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
@@ -16,15 +16,30 @@
     <!-- Glidejs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
     <!-- Custom StyleSheet -->
-    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <!-- Font -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Changa+One" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Changa+One" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
     <title>PaKo™</title>
 </head>
 
 <body>
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
     <!-- Header -->
-    <div id="hid">(EN) Plamen Iliev personal portfolio page. (ES) Mi pagina portafolio personal. (CAT) La meva pàgina portafoli personal. (БГ) Пламен Илиев, моят личен Уебсайт портфолио. pako.es </div>
+    <div id="hid">(EN) Plamen Iliev personal portfolio page. (ES) Mi pagina portafolio personal. (CAT) La meva pàgina
+        portafoli personal. (БГ) Пламен Илиев, моят личен Уебсайт портфолио. pako.es </div>
     <header id="home" class="header">
         <!-- Navigation -->
         <nav class="nav">
@@ -57,7 +72,7 @@
                             <a href="#skills" class="nav-link scroll-link">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#teams" class="nav-link scroll-link">Teams</a>
+                            <a href="#projects" class="nav-link scroll-link">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact" class="nav-link scroll-link">Contact</a>
@@ -112,7 +127,7 @@
         <div class="services-center container">
             <div class="service" data-aos="fade-down" data-aos-duration="2000">
                 <span><i class="fab fa-accusoft"></i></span>
-                <h2>Web Design</h2>
+                <h2>Frontend</h2>
                 <p>
 
                 </p>
@@ -120,7 +135,7 @@
 
             <div class="service" data-aos="fade-up" data-aos-duration="2000">
                 <span><i class="fas fa-chart-line"></i></span>
-                <h2>Advertising</h2>
+                <h2>DB</h2>
                 <p>
 
                 </p>
@@ -128,7 +143,7 @@
 
             <div class="service" data-aos="fade-down" data-aos-duration="2000">
                 <span><i class="fas fa-blender-phone"></i></span>
-                <h2>Apps Design</h2>
+                <h2>Backend</h2>
                 <p>
 
                 </p>
@@ -174,7 +189,7 @@
                     </div>
                 </div>>
 
-                <!--  <div class="skills-box">
+                <div class="skills-box">
                     <h4>Mongodb</h4>
                     <div class="skills-ilt">
                         <div class="skills-bar mongodb"></div>
@@ -187,14 +202,24 @@
             <div class="right" data-aos="fade-left" data-aos-duration="2000">
                 <h3>My creative skills and experience</h3>
                 <p>
-                    <a>Python Advanced</a><br>
-                    <a>Python OOP</a><br>
-                    <a>JavaScript Advanced</a><br>
-                    <a>JavaScript Applications</a><br>
-                    <a>Python Web - Django framework</a><br>
-                    <a>MySQL</a><br>
-                    <a>HTML5 & CSS</a><br>
-                    <a>ReactJS</a><br>
+                <h2 style="margin-bottom:10px">Titles and diplomas</h2>
+                <a href="/docs/Python Advanced - May 2021 - Certificate.pdf" target="_blank">Python Advanced</a><br>
+                <a href="/docs/Python OOP - June 2021 - Certificate.pdf" target="_blank">Python OOP</a><br>
+                <a href="/docs/JS Advanced - September 2021 - Certificate.pdf" target="_blank">JavaScript
+                    Advanced</a><br>
+                <a href="/docs/JS Applications - October 2021 - Certificate.pdf" target="_blank">JavaScript
+                    Applications</a><br>
+                <a href="/docs/Python Web Basics - January 2022 - Certificate.pdf" target="_blank">Python Web - Django
+                    framework</a><br>
+                <a href="/docs/MySQL - January 2022 - Certificate.pdf" target="_blank">MySQL</a><br>
+                <a href="/docs/HTML & CSS - May 2022 - Certificate.pdf" target="_blank">HTML5 & CSS</a><br>
+                <a href="/docs/ReactJS - June 2022 - Certificate.pdf" target="_blank">ReactJS</a><br>
+                <a href="/docs/Diploma for Python Full-Stack Developer.pdf" target="_blank">Diploma Python fullstack
+                    developer</a><br>
+                <a href="/docs/Diploma for Python Web Developer.pdf" target="_blank">Diploma Python web
+                    developer</a><br>
+                <a href="/docs/Certificado WEB.pdf" target="_blank">
+                    Confection and publication of web pages certificate</a><br>
 
 
                 </p>
@@ -203,6 +228,9 @@
             </div>
         </div>
     </section>
+
+
+    <!--     
     <section class="my-projects-section">
         <div class="title">
             <h1>My projects</h1>
@@ -226,91 +254,139 @@
 
 
 
-    </section>
+    </section> -->
 
     <!-- Team -->
-    <section class="section theme" id="teams">
+    <section class="section theme" id="projects">
         <div class="title">
-            <h1>My team</h1>
+            <h1>My projects</h1>
         </div>
 
         <div class="teams-center container">
-            <div class="glide">
+            <div class="glide" data-aos="fade-down" data-aos-duration="2000">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
+                        <a href="http://launio.herokuapp.com/" target="_blank">
+                            <li class="glide__slide">
+                                <div class="team">
+                                    <div class="img-cover">
+                                        <img src="./images/uniologo.png" alt="logo-unio" />
+                                    </div>
+                                    <h3>La unio project</h3>
+                                    <p>
+                                        Django project with functionality for gymnasts
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="https://modern-blog.web.app/" target="_blank">
+                            <li class="glide__slide">
+                                <div class="team">
+                                    <div class="img-cover">
+                                        <img id="gameshub-logo-padding" src="./images/games-hub.png" alt="games-hub" />
+                                    </div>
+                                    <h3>Games Hub</h3>
+                                    <p>
+                                        Games review catalog with ReactJS and Firebase
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="https://isabella.cat/" target="_blank">
+                            <li class="glide__slide">
+                                <div class="team">
+                                    <div class="img-cover">
+                                        <img id="isabella-logo-padding" src="./images/isabella.png" alt="" />
+                                    </div>
+                                    <h3>Isabella.cat</h3>
+                                    <p>
+                                        Isabella Plamenov (Gymnast) personal page
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="https://www.asesoriabaix.com/" target="_blank">
+                            <li class="glide__slide">
+                                <div class="team">
+                                    <div class="img-cover">
+                                        <img id="baix-logo-padding" src="./images/baix-logo.png" alt="baix-logo" />
+                                    </div>
+                                    <h3>Asesoria Baix</h3>
+                                    <p>
+                                        Wordpress project made 10 years ago !
+                                    </p>
+                                </div>
+                            </li>
+                        </a>
                         <li class="glide__slide">
                             <div class="team">
                                 <div class="img-cover">
-                                    <img src="./images/profile12.jpg" alt="" />
+                                    <img src="./images/logo-pedrin.png" alt="gruas-pedrin" />
                                 </div>
-                                <h3>Plamen Iliev</h3>
+                                <h3>Gruas Pedrin</h3>
                                 <p>
-                                    Just me !
+                                    Website made by HTML CSS and JS
                                 </p>
                             </div>
                         </li>
-                        <li class="glide__slide">
-                            <div class="team">
-                                <div class="img-cover">
-                                    <img src="./images/profile2.jpg" alt="" />
+                        <a href="https://www.viptransfer.bg" target="_blank">
+                            <li class="glide__slide">
+                                <div class="team">
+                                    <div class="img-cover">
+                                        <img id="vip-logo-padding" src="./images/logo-viptransfer.png" alt="progress" />
+                                    </div>
+                                    <h3>VIP Transfer</h3>
+                                    <p>
+                                        Website made by HTML CSS and JS
+                                    </p>
                                 </div>
-                                <h3>Nikolay Kolev</h3>
-                                <p>
-                                    Python backend developer
-                                </p>
-                            </div>
-                        </li>
-                        <li class="glide__slide">
-                            <div class="team">
-                                <div class="img-cover">
-                                    <img src="./images/profile3.jpg" alt="" />
-                                </div>
-                                <h3>Tihomir Manushev</h3>
-                                <p>
-                                    Tisho , dominating Python core !
-                                </p>
-                            </div>
-                        </li>
-                        <li class="glide__slide">
-                            <div class="team">
-                                <div class="img-cover">
-                                    <img src="./images/profile4.jpg" alt="" />
-                                </div>
-                                <h3>PullBack</h3>
-                                <p>
-                                    Full stack web developer !
-                                </p>
-                            </div>
-                        </li>
-                        <li class="glide__slide">
-                            <div class="team">
-                                <div class="img-cover">
-                                    <img src="./images/profilePython.png" alt="" />
-                                </div>
-                                <h3>Missing for now</h3>
-                                <p>
-                                    Will see later
-                                </p>
-                            </div>
-                        </li>
-                        <li class="glide__slide">
-                            <div class="team">
-                                <div class="img-cover">
-                                    <img src="./images/profile5.png" alt="" />
-                                </div>
-                                <h3>Hentai-Papi</h3>
-                                <p>
-                                    The spirit of the team,young with powerfull skills
-                                </p>
-                            </div>
-                        </li>
+                            </li>
+                        </a>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+    <!-- sponsors test  -->
+    <section id="partners">
+        <div class="container">
+            <h2 class="text-center font-weight-bold about-header-2" style="margin-bottom:80px;">Friends</h2>
+            <section class="partners-logos slider">
+
+
+                <div class="slide" data-aos="fade-right" data-aos-duration="2000"><a
+                        href="https://clubritmicalaunioviladecans.net/" target="_blank"><img id="unio-logo"
+                            src="./images/uniologo.png" alt="logo"></a></div>
+                <div class="slide" data-aos="fade-left" data-aos-duration="2000"><a href="https://www.belybel.com/"
+                        target="_blank"><img id="belybel-logo" src="./images/belybel.png" alt="bel-y-bel-logo"></a>
+                </div>
+                <div class="slide" data-aos="fade-left" data-aos-duration="2000"><a
+                        href="https://mrcarpetsolutions.co.uk/" target="_blank"><img id="carpet-logo"
+                            src="./images/carpet-solutions.png" alt="logo"></a></div>
+                <div class="slide" data-aos="fade-right" data-aos-duration="2000">
+                    <a href="https://isabella.cat/" target="_blank"><img id="isabella-logo" src="./images/isabella.png"
+                            alt="logo-isabella"></a>
+                </div>
+                <div class="slide" data-aos="fade-right" data-aos-duration="2000">
+                    <a href="/#" target="_blank"><img id="pedrin-logo" src="./images/logo-pedrin.png"
+                            alt="logo-pedrin"></a>
+                </div>
+                <div class="slide" data-aos="fade-right" data-aos-duration="2000">
+                    <a href="https://www.asesoriabaix.com/" target="_blank"><img id="baix-logo"
+                            src="./images/baix-logo.png" alt="logo-baix"></a>
+                </div>
+                <div class="slide" data-aos="fade-right" data-aos-duration="2000">
+                    <a href="https://www.viptransfer.bg/" target="_blank"><img id="viptransfer-logo"
+                            src="./images/logo-viptransfer.png" alt="logo-baix"></a>
+                </div>
+
+            </section>
+        </div>
+    </section>
+    <!-- end sponsors test -->
+
     <section class="friends">
-        <div class="title">
+        <!-- <div class="title">
             <h1>Friends</h1>
         </div>
 
@@ -325,25 +401,28 @@
                 <img class="banner" src="./images/navbar-logo.png" alt="" width="250" height="140" margin-top="120px" />
             </a>
 
-        </div>
+        </div> -->
         <div class="title title-icons">
-            <h1>Contact me</h1>
+
         </div>
 
         <div class="icons" id="contact">
             <div class="icons-icon"><a href="https://www.instagram.com/pakoiliev/" target="_blank"><i
                         class="fab fa-instagram"></i></a></div>
-            <div class="icons-icon"><a href="https://github.com/Unconsciousness13" target="_blank"><i class="fab fa-github"></i></a></div>
+            <div class="icons-icon"><a href="https://github.com/Unconsciousness13" target="_blank"><i
+                        class="fab fa-github"></i></a></div>
             <div class="icons-icon"><a href="https://www.linkedin.com/in/plamen-iliev-b35646201/" target="_blank"><i
                         class="fab fa-linkedin"></i></a></div>
-            <div class="icons-icon"><a href="https://www.facebook.com/pako.iliev/" target="_blank"><i class="fab fa-facebook"></i></a></div>
-            <div class="icons-icon"><a href="mailto:pakounicredit@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></div>
+            <div class="icons-icon"><a href="https://www.facebook.com/pako.iliev/" target="_blank"><i
+                        class="fab fa-facebook"></i></a></div>
+            <div class="icons-icon"><a href="mailto:pakounicredit@gmail.com" target="_blank"><i
+                        class="fas fa-envelope-square"></i></a></div>
             <div class="icons-icon"><a href="tel:+34655510362" target="_blank"><i class="fas fa-phone"></i></a></div>
         </div>
     </section>
 
     <footer>
-        <p>Created By <span>Pako™</span> | &copy; 2021 All rights reserved.</p>
+        <p>Created By <span>Pako™</span> | &copy; 2011 All rights reserved.</p>
     </footer>
 
     <!-- AOS -->
@@ -357,8 +436,9 @@
     <!-- Custom Script -->
     <script src="index.js"></script>
     <script src="matrix.js"></script>
+    <script src="main.js"></script>
     <!-- Google analytics Script-->
-    <script type="text/javascript">
+    <script type=" text/javascript">
         var google_analytics_id = 'UA-63855804-1';
 
         if (google_analytics_id != 'UA-63855804-1f') {
